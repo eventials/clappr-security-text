@@ -1,0 +1,243 @@
+.security-text-wrapper {
+  z-index: 1;
+}
+
+p {
+  position   : absolute;
+  z-index    : 2;
+  color      : white;
+  text-shadow: 2px 1px 1px black;
+
+  -webkit-animation: move 30s linear 0s infinite alternate;
+  -moz-animation   : move 30s linear 0s infinite alternate;
+  -o-animation     : move 30s linear 0s infinite alternate;
+  animation        : move 30s linear 0s infinite alternate;
+}
+
+@-webkit-keyframes move {
+  0% {
+    top : 10%;
+    left: 10%;
+  }
+
+  10% {
+    top : 50%;
+    left: 50%;
+  }
+
+  20% {
+    top : 80%;
+    left: 80%;
+  }
+
+  30% {
+    top : 80%;
+    left: 50%;
+  }
+
+  40% {
+    top : 80%;
+    left: 10%;
+  }
+
+  50% {
+    top : 50%;
+    left: 50%;
+  }
+
+  60% {
+    top : 10%;
+    left: 80%;
+  }
+
+  70% {
+    top : 10%;
+    left: 50%;
+  }
+
+  80% {
+    top : 10%;
+    left: 10%;
+  }
+
+  90% {
+    top : 50%;
+    left: 50%;
+  }
+
+  100% {
+    top : 80%;
+    left: 80%;
+  }
+}
+
+@-moz-keyframes move {
+  0% {
+    top : 10%;
+    left: 10%;
+  }
+
+  10% {
+    top : 50%;
+    left: 50%;
+  }
+
+  20% {
+    top : 80%;
+    left: 80%;
+  }
+
+  30% {
+    top : 80%;
+    left: 50%;
+  }
+
+  40% {
+    top : 80%;
+    left: 10%;
+  }
+
+  50% {
+    top : 50%;
+    left: 50%;
+  }
+
+  60% {
+    top : 10%;
+    left: 80%;
+  }
+
+  70% {
+    top : 10%;
+    left: 50%;
+  }
+
+  80% {
+    top : 10%;
+    left: 10%;
+  }
+
+  90% {
+    top : 50%;
+    left: 50%;
+  }
+
+  100% {
+    top : 80%;
+    left: 80%;
+  }
+}
+
+@-o-keyframes move {
+  0% {
+    top : 10%;
+    left: 10%;
+  }
+
+  10% {
+    top : 50%;
+    left: 50%;
+  }
+
+  20% {
+    top : 80%;
+    left: 80%;
+  }
+
+  30% {
+    top : 80%;
+    left: 50%;
+  }
+
+  40% {
+    top : 80%;
+    left: 10%;
+  }
+
+  50% {
+    top : 50%;
+    left: 50%;
+  }
+
+  60% {
+    top : 10%;
+    left: 80%;
+  }
+
+  70% {
+    top : 10%;
+    left: 50%;
+  }
+
+  80% {
+    top : 10%;
+    left: 10%;
+  }
+
+  90% {
+    top : 50%;
+    left: 50%;
+  }
+
+  100% {
+    top : 80%;
+    left: 80%;
+  }
+}
+
+@keyframes move {
+  0% {
+    top : 10%;
+    left: 10%;
+  }
+
+  10% {
+    top : 50%;
+    left: 50%;
+  }
+
+  20% {
+    top : 80%;
+    left: 80%;
+  }
+
+  30% {
+    top : 80%;
+    left: 50%;
+  }
+
+  40% {
+    top : 80%;
+    left: 10%;
+  }
+
+  50% {
+    top : 50%;
+    left: 50%;
+  }
+
+  60% {
+    top : 10%;
+    left: 80%;
+  }
+
+  70% {
+    top : 10%;
+    left: 50%;
+  }
+
+  80% {
+    top : 10%;
+    left: 10%;
+  }
+
+  90% {
+    top : 50%;
+    left: 50%;
+  }
+
+  100% {
+    top : 80%;
+    left: 80%;
+  }
+}

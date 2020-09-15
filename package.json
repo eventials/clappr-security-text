@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "clappr": "^0.3.13"
+  },
+  "name": "clappr-security-text",
+  "version": "1.0.1",
+  "description": "A clappr plugin",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "github.com/eventials/clappr-security-text"
+  },
+  "author": "Pietro Schiavinato",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "clappr",
+    "plugin",
+    "security-text"
+  ]
+}
